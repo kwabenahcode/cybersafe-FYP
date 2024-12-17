@@ -41,7 +41,14 @@ function App() {
             </PrivateRoute>
           }
         />
-        <Route path="/assessment" element={<RiskAssessment />} />
+        <Route
+          path="/assessment"
+          element={
+            <PrivateRoute>
+              <RiskAssessment />
+            </PrivateRoute>
+          }
+        />
       </Routes>
     </Router>
   );

@@ -1,0 +1,51 @@
+
+
+.courses-main-div{
+    margin: 9px;
+}
+
+.courses-div-flex{
+    display: flex;
+    background-color: #dbd2d2;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* gap: 2rem; */
+}
+
+.courses-div{
+    display: flex;
+    gap: 1rem;
+}
+
+.courses-p{
+    text-align: justify;
+    width: 80%;
+    /* margin-top: 4rem; */
+}
+
+.recommended-courses-div{
+    margin-top: 9rem;
+    background: #F3F3F3;
+    padding: 1rem;
+}
+
+.recommended-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.recommended-p{
+    text-align: justify;
+}
+
+.recommended-card{
+    border: 1px solid rgb(209, 209, 209);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background: #ffffff;
+}
+
+.conttainer{
+    background: #F3F3F3;
+}

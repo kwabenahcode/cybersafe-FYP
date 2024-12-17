@@ -1,0 +1,22 @@
+
+.logo-text{
+    color: #1180CB !important;
+    font-weight: bolder;
+}
+
+.nav_text{
+    color: black !important;
+    font-weight: bolder;
+}
+
+.sign_up_btn{
+    background: #1180CB !important;
+}
+
+.login_btn{
+    margin-right: 1.5rem;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.login-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.login-first-div{
+    width: 30%;
+    height: 30rem;
+    background: #1180CB;
+    color: white;
+}
+
+.login-second-div{
+    width: 33%;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-class{
+    margin-top: 3rem;
+}
+
+.login__form__label{
+    margin-top: 1rem;
+}
+
+.login__input{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sign_btn{
+    background: #1180CB !important;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}

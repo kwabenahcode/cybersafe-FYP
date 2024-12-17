@@ -1,0 +1,206 @@
+.home-first-session-main-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.home-fist-session {
+  width: 50%;
+  margin-top: 5rem;
+}
+
+.first-session-p {
+  text-align: justify;
+}
+
+.first-img-div {
+  width: 70%;
+  margin-left: 5rem;
+}
+
+.first-img {
+  width: 50%;
+}
+
+.getStarted_btn {
+  background: #1180cb !important;
+}
+
+/* -----END OF FIRST SECTION DESIGN -----*/
+
+.second-section-main-div {
+  background: #ecf5fb;
+  height: 430px;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.second-image-div {
+  width: 50%;
+  border-radius: 3rem;
+}
+
+.second-image {
+  width: 350px;
+}
+
+.second-section-container {
+  display: flex;
+  gap: 8rem;
+}
+
+.home-second-section {
+  width: 80%;
+  padding-top: 4rem;
+}
+
+.second-session-p {
+  text-align: justify;
+}
+
+/* -----SECOND SECTION ENDS------ */
+
+.section-three-container {
+  margin-top: 5rem;
+}
+
+.div-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card-flex {
+  display: flex;
+  border: 1px solid rgb(169, 169, 169);
+  background: #ecf5fb;
+  border-radius: 1rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.padlock-img {
+  width: 70px;
+  height: 70px;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-body {
+  text-align: justify;
+  /* background: red; */
+}
+
+/* ------SECTION 3 ENDS HERE------ */
+
+.section-four-div {
+  margin-top: 5rem;
+  margin: 3rem;
+}
+
+.section-four-p {
+  text-align: justify;
+}
+
+.video-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.video-card {
+  border: 1px solid rgb(171, 171, 171);
+  padding: 6px;
+  border-radius: 9px;
+}
+
+.explore-course-btn {
+  background: transparent !important;
+  color: #1180cb !important;
+  font-weight: bold !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin-top: 2rem;
+  margin-left: 33rem;
+}
+
+.explore-course-btn:hover {
+  background: #1180cb !important;
+  color: #ecf5fb !important;
+}
+
+/* SECTION FIVE END HERE */
+
+.section-five-div {
+  background: #f3f3f3;
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+.p-section-five {
+  text-align: justify;
+  width: 50%;
+}
+
+.resources-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.five-video-image {
+  width: 100%;
+}
+
+.section-five-p {
+  text-align: justify;
+  /* width: 80%; */
+  padding: 4px;
+}
+
+/* ----- */
+.video-card-five {
+  background: #ffffff;
+  /* width: 57%; */
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+/* --------- */
+.footer-main-div {
+  background: #2c2e2f;
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.line {
+  color: #f3f3f3;
+  height: 1px;
+  width: 70%;
+  background: #f3f3f3;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.footer-div {
+  display: flex;
+  gap: 2rem;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.vid-image {
+  width: 22rem;
+}

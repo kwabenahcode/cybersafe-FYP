@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+import { ArrowLeft } from "react-bootstrap-icons";
 import "./RiskAssessment.css";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const RiskAssessment = () => {
+  const navigate = useNavigate();
   const [answers, setAnswers] = useState({
     strongPassword: "no",
     softwareUpdated: "no",
@@ -38,6 +42,9 @@ const RiskAssessment = () => {
 
   return (
     <div className="risk-assessment">
+      <Link onClick={() => navigate(-1)}>
+        <ArrowLeft />
+      </Link>
       <h1>Cybersecurity Risk Assessment</h1>
       <p>
         Answer the following questions to assess your cybersecurity risk level.
